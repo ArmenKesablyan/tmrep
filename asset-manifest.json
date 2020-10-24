@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tmrep/static/css/main.4bebaca7.chunk.css",
+    "main.js": "/tmrep/static/js/main.da207189.chunk.js",
+    "main.js.map": "/tmrep/static/js/main.da207189.chunk.js.map",
+    "runtime-main.js": "/tmrep/static/js/runtime-main.ed806da2.js",
+    "runtime-main.js.map": "/tmrep/static/js/runtime-main.ed806da2.js.map",
+    "static/js/2.084659b6.chunk.js": "/tmrep/static/js/2.084659b6.chunk.js",
+    "static/js/2.084659b6.chunk.js.map": "/tmrep/static/js/2.084659b6.chunk.js.map",
+    "index.html": "/tmrep/index.html",
+    "precache-manifest.940cce26afaee6a0a0f4930b0365bdbd.js": "/tmrep/precache-manifest.940cce26afaee6a0a0f4930b0365bdbd.js",
+    "service-worker.js": "/tmrep/service-worker.js",
+    "static/css/main.4bebaca7.chunk.css.map": "/tmrep/static/css/main.4bebaca7.chunk.css.map",
+    "static/js/2.084659b6.chunk.js.LICENSE.txt": "/tmrep/static/js/2.084659b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed806da2.js",
+    "static/js/2.084659b6.chunk.js",
+    "static/css/main.4bebaca7.chunk.css",
+    "static/js/main.da207189.chunk.js"
+  ]
+}
