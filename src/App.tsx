@@ -111,7 +111,7 @@ function App() {
     <br /><br />
     <div className="insta-link">
         <p><i>
-        For help with this website or process, please direct message <a href="https://www.instagram.com/williambgdoian/">@WilliamBgdoian</a> on Instagram. We need to work together to make this work.
+        For help with this website or process, please direct message <a href="https://www.instagram.com/williambgdoian/">@WilliamBgdoian</a> on Instagram. There is power in unity.
         </i>
         </p>
       </div>
@@ -161,12 +161,12 @@ function App() {
     </Grid>)})}
     </Grid>
     <div className="insta-link insta-footer">
-        For help with this website or process, please direct message <a href="https://www.instagram.com/williambgdoian/">@WilliamBgdoian</a> on Instagram. We need to work together to make this work.
+        For help with this website or process, please direct message <a href="https://www.instagram.com/williambgdoian/">@WilliamBgdoian</a> on Instagram. There is power in unity.
         <br /><br />
         <a href="https://www.instagram.com/williambgdoian/">
         <img width="20" src='/instagram-icon.png' alt="instagram" /> @WilliamBgdoian 
         </a>
-        </div>
+        </div>        
     </div>)
   }
 
