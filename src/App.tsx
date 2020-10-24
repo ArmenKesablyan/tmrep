@@ -53,7 +53,7 @@ function App() {
 
   const formStep = () => {
     return (<div className="form-step">
-    <p>Complete fields below to auto-populate individualized scripts to send to your governor, senators, and congressman.</p>
+    <p>Enter your information below to generate scripts for your governor, senators, and congressman.</p>
     <div className="zipInput">
     <Grid container spacing={3}>
     <Grid item xs={12}>
@@ -92,7 +92,7 @@ function App() {
     </Grid>
     </div>
     <Button variant="contained" color="primary" onClick={() => findReps()}>
-      Contact My Reps
+      To My Reps
     </Button>
   </div>)
   }
@@ -140,7 +140,7 @@ function App() {
             <CopyToClipboard text={rndrd.replace(/<br \/><br \/>/g, '')}>
              <Button 
             variant="contained">
-              Copy Script
+              1. Copy Script
               </Button>
           </CopyToClipboard>
           </p>
@@ -148,7 +148,7 @@ function App() {
             <Button 
             onClick={() => goTo(itm.link)}
             variant="contained">
-              Contact Website
+              2. Contact Website
               </Button>
           </p>
         </div>
