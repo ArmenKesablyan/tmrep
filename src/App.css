@@ -3,36 +3,101 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #434343;
+}
+
+.zipInput {
+  margin: 15px;
+  padding: 15px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reps {
+  margin-top: 25px;
+}
+
+.rep-paper {
+  display: flex;
+  text-align: left;
+}
+
+.template-title {
+  width:160px;
+}
+
+.rep-info {
+  min-width: 165px;
+  width: 250px;
+  margin: 15px;
+  flex: 0 0;
+}
+
+.upper {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+
+.template-info {
+  font-size: 0.8em;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid #f1f1f1;
+  background-color: #f6f6f6;
+  flex: 0;
+}
+
+.body-content {
+  font-size: 0.8em;
+  padding: 25px 15px;
+}
+
+.body-content strong {
+  font-size: 1.2em;
+}
+
+h2 {
+  color: #F00;
+  text-transform: uppercase;
+}
+
+.insta-link {
+  
+}
+
+.insta-link a,
+.insta-link a:link,
+.insta-link a:visited {
+  color: #00F;
+  font-size: 1em;
+}
+
+.insta-link img {
+  vertical-align: middle;
+}
+
+.insta-link a:hover {
+  color: #61dafb;
+}
+
+body .insta-footer {
+  font-size: 0.8em ;
+  font-weight: bold;
+  padding: 25px;
+  max-width: 600px;
+  margin: auto;
 }

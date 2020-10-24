@@ -2,16 +2,20 @@
   "name": "tomyrep",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://armenkesablyan.github.io/tmrep",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
+    "@types/react-copy-to-clipboard": "^4.3.0",
+    "gh-pages": "^3.1.0",
     "react": "^16.14.0",
+    "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.14.0",
+    "react-input-mask": "^2.0.4",
     "react-scripts": "3.4.3",
     "typescript": "~3.7.2"
   },
@@ -19,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-input-mask": "^2.0.5"
   }
 }
