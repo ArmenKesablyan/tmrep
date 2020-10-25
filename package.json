@@ -2,7 +2,7 @@
   "name": "tomyrep",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://armenkesablyan.github.io/tmrep",
+  "homepage": "https://tomyrep.com",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
