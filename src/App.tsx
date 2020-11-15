@@ -126,10 +126,10 @@ function App() {
       const tmpl = repTemplates[(itm.template_id ? itm.template_id : itm.category)] || (() => '');
       const rndrd = tmpl({rep: itm.name, city, name});
     return (<Grid item xs={12}>
-      <div className="rep-paper" title="Governer">
+      <div className="rep-paper">
         <div className="rep-info">
           <div className="category">
-            <img src={`/headshots/${itm.name.toLocaleLowerCase().replace(' ', '-')}.jpg`} width="140" alt="Gavin Newsom" />
+            <img src={`/headshots/${itm.name.toLocaleLowerCase().replace(' ', '-')}.jpg`} width="140" alt={itm.name} />
           </div>
           <p>
             <b className="upper">{itm.category}</b>
