@@ -153,7 +153,7 @@ function App() {
           </p>
         </div>
         <div className="rep-template">
-          <div className="template-info" dangerouslySetInnerHTML={{__html: rndrd}}>
+          <div contentEditable={true} className="template-info" dangerouslySetInnerHTML={{__html: rndrd}}>
             
           </div>
         </div>
@@ -185,9 +185,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        {currentStep(cStep)}
       </header>
-      
+      <div className="app-content">
+      {currentStep(cStep)}
+      </div>
     </div>
   );
 }
