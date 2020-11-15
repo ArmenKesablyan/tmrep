@@ -45,7 +45,7 @@
         "name": "Adam Schiff",
         "category": "congressman",
         "link": "https://schiff.house.gov/contact",
-        "zips": [90004, 90026, 90027, 90029, 90038, 90039, 90046, 90048, 90068, 91011, 91046, 91109, 91115, 91123, 91124, 91129, 91184, 91189, 91201, 91202, 91203, 91204, 91205, 91206, 91207, 91208, 91209, 91210, 91214, 91221, 91222, 91224, 91225, 91501, 91502, 91503, 91504, 91506, 91040]
+        "zips": [90004, 90026, 90027, 90029, 90038, 90039, 90046, 90048, 90068, 91011, 91046, 91109, 91115, 91123, 91124, 91129, 91184, 91189, 91201, 91202, 91203, 91204, 91205, 91206, 91207, 91208, 91209, 91210, 91214, 91221, 91222, 91224, 91225, 91501, 91502, 91503, 91504, 91506, 91040, 91042]
     },
     {
         "name": "Tony Cardenas",
@@ -75,19 +75,19 @@
         "name": "Jimmy Gomez",
         "category": "congressman",
         "link": "https://gomez.house.gov/contact/",
-        "zips": []
+        "zips": [90006, 90010, 90020]
     },
     {
         "name": "Karen Bass",
         "category": "congressman",
         "link": "https://bass.house.gov/contact",
-        "zips": []
+        "zips": [90035, 90064]
     },
     {
         "name": "Linda Sanchez",
         "category": "congressman",
         "link": "https://lindasanchez.house.gov/contact",
-        "zips": []
+        "zips": [90711]
     },
     {
         "name": "Mark Takano",

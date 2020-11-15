@@ -2,7 +2,7 @@
 
 export const congressman = (p: Record<string, string>) => `
 
-Hello Congressman ${p.rep}, 
+Hello Representative ${p.rep}, 
 <br /><br />
 My name is ${p.name} and I am calling on you from ${p.city}, CA.
 <br /><br />
@@ -18,7 +18,7 @@ I am demanding for you to immediately:
 <br /><br />
 (3)	Explicitly call for immediately halting ALL U.S. military and financial aid to the anti-American, anti-Armenian, and anti-Israeli dictatorships of Azerbaijan and Turkey;
 <br /><br />
-(4)	Vote for Congressman Frank Pallone’s resolution to recognize the independence of Artsakh;
+(4)	4.	Cosponsor Congressman Frank Pallone’s H.Res.1203 to recognize the independence of Artsakh and the people of Artsakh’s inalienable right to self-determination;
 <br /><br />
 (5)	Introduce a legislative bill to end the Section 907 waiver of the Freedom Support Act in order to completely terminate any U.S. military and financial aid and exports to Azerbaijan;
 <br /><br />
@@ -34,7 +34,7 @@ I am demanding for you to immediately:
 <br /><br />
 Turkey and Azerbaijan have been committing human rights violations dropping cluster bombs on civilians for almost a month now. I have not seen any real or effective legislative action from you.  I suggest you act with the utmost urgency to rectify this reckless and egregious oversight.  
 <br /><br />
-It is critical for you to note that I am registered to vote and ready to make myself heard through my vote. Your actions regarding this immediate issue will absolutely be a deciding factor during your upcoming election and your potential re-election efforts in 2022.
+It is critical for you to note that I am registered to vote and ready to make myself heard through my vote. Your actions regarding this immediate issue will absolutely be a deciding factor during your upcoming election and your potential re-election efforts in 2020.
 <br /><br />
 Thank you.
 `
@@ -56,7 +56,7 @@ I am demanding for you to immediately:
 <br /><br />
 (3)	Explicitly call for immediately halting ALL U.S. military and financial aid to the anti-American, anti-Armenian, and anti-Israeli dictatorships of Azerbaijan and Turkey;
 <br /><br />
-(4)	Vote for Congressman Frank Pallone’s resolution to recognize the independence of Artsakh;
+(4)	4.	Cosponsor Congressman Frank Pallone’s H.Res.1203 to recognize the independence of Artsakh and the people of Artsakh’s inalienable right to self-determination;
 <br /><br />
 (5)	Introduce a legislative bill to end the Section 907 waiver of the Freedom Support Act in order to completely terminate any U.S. military and financial aid and exports to Azerbaijan;
 <br /><br />
@@ -112,7 +112,7 @@ I am demanding for you to immediately:
 <br /><br />
 (3)	Explicitly call for immediately halting ALL U.S. military and financial aid to the anti-American, anti-Armenian, and anti-Israeli dictatorships of Azerbaijan and Turkey;
 <br /><br />
-(4)	Vote for Congressman Frank Pallone’s resolution to recognize the independence of Artsakh;
+(4)	4.	Cosponsor Congressman Frank Pallone’s H.Res.1203 to recognize the independence of Artsakh and the people of Artsakh’s inalienable right to self-determination;
 <br /><br />
 (5)	Introduce a legislative bill to end the Section 907 waiver of the Freedom Support Act in order to completely terminate any U.S. military and financial aid and exports to Azerbaijan;
 <br /><br />
