@@ -59,6 +59,7 @@ function App() {
     <Grid item xs={12}>
         <TextField
         id="name"
+        onKeyDown={(e) => e.keyCode && (e.keyCode === 13 && findReps())}
         onChange={(t) => {setNameError(false); setName(t.target.value)} }
         error={nameError}
         helperText={nameError ? 'Please enter your name' : ''}
@@ -70,6 +71,7 @@ function App() {
       <Grid item xs={12}>
         <TextField 
         id="city" 
+        onKeyDown={(e) => e.keyCode && (e.keyCode === 13 && findReps())}
         onChange={(t) => {setCityError(false); setCity(t.target.value)} }
         error={cityError}
         helperText={cityError ? 'Please enter your city' : ''}
@@ -80,6 +82,7 @@ function App() {
       <Grid item xs={12}>
       <TextField 
         id="zip" 
+        onKeyDown={(e) => e.keyCode && (e.keyCode === 13 && findReps())}
         onChange={(t) => { setZipError(false); setZip(t.target.value)}}
         error={zipError}
         helperText={zipError ? 'Please enter a valid zip code' : ''}
