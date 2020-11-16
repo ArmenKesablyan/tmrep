@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import repTemplates from './templates';
 import reps from './myreps.json';
 import CopyToClipboard from 'react-copy-to-clipboard';
+import Axios from 'axios';
 
 type Rep = typeof reps.reps;
 
@@ -29,10 +30,6 @@ function App() {
       setNameError(true);
       isValid = false;
     }
-    if (city === '') {
-      setCityError(true);
-      isValid = false;
-    }
     if (zip === '') {
       setZipError(true);
       isValid = false;
@@ -47,7 +44,11 @@ function App() {
 
   const findReps = () => {
     if (validateForm()) {
-      setCStep(1);
+      const zipKey ='AIzaSyD-90jVawS_mkg_giiw08Z5tfeG9LBKv14';
+      Axios.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${zip}&sensor=true&key=${zipKey}`).then((res) => {
+        setCity(res.data.results[0].formatted_address);
+        setCStep(1);
+      });
     }
   }
 
@@ -67,17 +68,6 @@ function App() {
         label="Full Name" 
         variant="outlined"
         />
-      </Grid>
-      <Grid item xs={12}>
-        <TextField 
-        id="city" 
-        onKeyDown={(e) => e.keyCode && (e.keyCode === 13 && findReps())}
-        onChange={(t) => {setCityError(false); setCity(t.target.value)} }
-        error={cityError}
-        helperText={cityError ? 'Please enter your city' : ''}
-        placeholder="Your city" 
-        label="City" 
-        variant="outlined" />
       </Grid>
       <Grid item xs={12}>
       <TextField 
@@ -106,11 +96,13 @@ function App() {
       <Grid container justify="center" style={{maxWidth: 960}}>
       <div className="body-content" style={{ textAlign: 'left'}}>
         <h2>Instructions</h2>
-      <strong>Step 1</strong>: Click "COPY SCRIPT" to copy the script for the specific representative.
+      <strong>Step 1</strong>: Click "COPY SCRIPT" to copy the script for each representative.
+      <br /><i style={{color: '#666'}}>* You may edit the script to your liking.</i>
       <br /><br />
       <strong>Step 2</strong>: Click "CONTACT WEBSITE" to go to representative’s contact website.
     <br /><br />
-    <strong>Step 3</strong>: You will be taken to the representative’s contact website where you will paste the copied script.  If the representative’s website asks you to choose a topic, select anything similar to "Legislation Issues", "Foreign Relations", or "Foreign Affairs".
+    <strong>Step 3</strong>: You will be taken to the representative’s contact website where you will paste the copied script.  
+    On the representative’s website, choose any topic similar to "Legislation Issues", "Foreign Relations", or "Foreign Affairs".
     <br /><br />
     <div className="insta-link">
         <p><i>

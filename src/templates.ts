@@ -4,7 +4,7 @@ export const congressman = (p: Record<string, string>) => `
 
 Hello Representative ${p.rep}, 
 <br /><br />
-My name is ${p.name} and I am calling on you from ${p.city}, CA.
+My name is ${p.name} and I am calling on you from ${p.city}.
 <br /><br />
 Azerbaijan and Turkey are attacking democratic Armenia and Artsakh (Nagorno Karabakh), and full-fledged war is being waged against the Armenian people. The Armenian people have already survived one genocide during WW1.  In a renewed effort by Turkey and Azerbaijan, Armenian civilians are being murdered and removed from their lands, and their existence is once again in grave danger.  As documented by Amnesty International, Turkey and Azerbaijan are committing human rights violations against the civilians of Armenia and Artsakh by bombing civilians using illegal weapons and recruiting known Jihadist terrorists to fight against the Armenian people.  We are at dire risk of experiencing and witnessing a second genocide against the Armenian people.  
 <br /><br />
@@ -42,7 +42,7 @@ Thank you.
 export const dianne = (p: Record<string, string>) => `
 Hello Senator ${p.rep}, 
 <br /><br />
-My name is ${p.name} and I am calling on you from ${p.city}, CA.
+My name is ${p.name} and I am calling on you from ${p.city}.
 <br /><br />
 Azerbaijan and Turkey are attacking democratic Armenia and Artsakh (Nagorno Karabakh), and full-fledged war is being waged against the Armenian people. The Armenian people have already survived one genocide during WW1.  In a renewed effort by Turkey and Azerbaijan, Armenian civilians are being murdered and removed from their lands, and their existence is once again in grave danger.  As documented by Amnesty International, Turkey and Azerbaijan are committing human rights violations against the civilians of Armenia and Artsakh by bombing civilians using illegal weapons and recruiting known Jihadist terrorists to fight against the Armenian people.  We are at dire risk of experiencing and witnessing a second genocide against the Armenian people.  
 <br /><br />
@@ -79,7 +79,7 @@ Thank you.`
 export const governor = (p: Record<string, string>) => `
 Hello Governor ${p.rep}, 
 <br /><br />    
-My name is ${p.name} and I am calling on you from ${p.city}, CA.
+My name is ${p.name} and I am calling on you from ${p.city}.
 <br /><br />       
 Azerbaijan and Turkey are attacking democratic Armenia and Artsakh (Nagorno Karabakh), and full-fledged war is being waged against the Armenian people, a people that survived genocide during WW1. Armenian civilians are being murdered and removed from their lands, and their existence is once again in grave danger.  Turkey and Azerbaijan are bombing civilians and have brought Jihadist terrorists to fight against the Armenian people. We are at dire risk of experiencing and witnessing a second genocide against the Armenian people.  Turkey’s president has also alluded to invading Jerusalem.  To avoid this conflict becoming a drawn-out regional catastrophe you need to act right now.
 <br /><br />       
@@ -98,7 +98,7 @@ Thank you.`
 export const kamala = (p: Record<string, string>) => `
 Hello Senator ${p.rep}, 
 <br /><br />
-My name is ${p.name} and I am calling on you from ${p.city}, CA.
+My name is ${p.name} and I am calling on you from ${p.city}.
 <br /><br />
 Azerbaijan and Turkey are attacking democratic Armenia and Artsakh (Nagorno Karabakh), and full-fledged war is being waged against the Armenian people. The Armenian people have already survived one genocide during WW1.  In a renewed effort by Turkey and Azerbaijan, Armenian civilians are being murdered and removed from their lands, and their existence is once again in grave danger.  As documented by Amnesty International, Turkey and Azerbaijan are committing human rights violations against the civilians of Armenia and Artsakh by bombing civilians using illegal weapons and recruiting known Jihadist terrorists to fight against the Armenian people.  We are at dire risk of experiencing and witnessing a second genocide against the Armenian people.  
 <br /><br />
